@@ -1,0 +1,33 @@
+body{
+	
+	 color: dodgerblue;
+}
+ .logo-holder{
+ 	height: 70px;
+ 	background: #fff;
+ 	padding: 5px;
+
+ }
+ .navbar{
+ 	height: 50px;
+ 	padding: 5px;
+ 	background:  #fff;
+
+ }
+ 
+   nav a{
+   	padding: 10px 12px ;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	text-decoration: none;
+	background: #fff;
+	transition: 1s ease all;
+   }
+    a:hover{
+    	background: yellow;
+		border-bottom: 3px solid red;
+    }
+    .active{
+		background: yellow;
+		border-bottom: 3px solid red;
+    }
